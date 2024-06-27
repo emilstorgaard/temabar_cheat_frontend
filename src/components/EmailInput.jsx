@@ -41,7 +41,7 @@ export default function EmailInput() {
   }
 
   return (
-<form onSubmit={temabarCheat} className="max-w-sm w-full mx-auto p-6 bg-gray-700 shadow-md rounded-lg flex flex-col space-y-4">
+<form onSubmit={temabarCheat} className="w-full mx-auto p-6 bg-gray-700 shadow-md rounded-lg flex flex-col space-y-4">
   <div>
     <label htmlFor="email" className="block text-m font-bold text-yellow-600 mb-1">Email</label>
     <input
